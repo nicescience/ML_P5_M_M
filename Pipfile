@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+pandas = "*"
+sklearn = "*"
+matplotlib = "*"
+seaborn = "*"
+bs4 = "*"
+langdetect = "*"
+nltk = "*"
+spacy = "*"
+gensim = "*"
+ipython = "*"
+regex = "*"
+setuptools = "*"
+wheel = "*"
+beautifulsoup4 = "==4.9.1"
+preprocess-kgptalkie = {git = "https://github.com/laxmimerit/preprocess_kgptalkie.git"}
+lxml = "*"
+spacy-lookups-data = "*"
+wordcloud = "*"
+pip = "*"
+install = "*"
+tfidf = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+deep-translator = "*"
+pydantic = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
