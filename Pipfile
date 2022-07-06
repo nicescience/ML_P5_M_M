@@ -30,6 +30,11 @@ fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 deep-translator = "*"
 pydantic = "*"
+jupyter = "*"
+pyldavis = "*"
+yellowbrick = "*"
+bokeh = "*"
+umap-learn = "*"
 
 [dev-packages]
 

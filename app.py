@@ -37,8 +37,8 @@ def predict(question:Question):
         
         nlp = en_core_web_sm.load(exclude=['tok2vec', 'ner', 'parser', 'attribute_ruler', 'lemmatizer'])
         pos_list = ["NOUN","PROPN"]
-        print('question entrée : ', question.textquestion)
-        cleaned_question = p.text_cleaner(question.textquestion, nlp, pos_list, "english")
+        print('question entrée : ', question.question)
+        cleaned_question = p.text_cleaner(question.question, nlp, pos_list, "english")
 
         
         
