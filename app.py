@@ -10,6 +10,7 @@ import nltk; nltk.download('popular')
 import en_core_web_sm
 from Question import Question
 import preprocessing as p
+
 # 2. Create the app object
 app = FastAPI()
 vectorizer = joblib.load("tfidf_vectorizer.pkl", 'r')
@@ -20,7 +21,7 @@ model = joblib.load("logisticreg_nlp_model.pkl", 'r')
 # 3. Index route, opens automatically on http://127.0.0.1:8000
 @app.get('/')
 def index():
-    return {'message': 'Hello, World'}
+    return {'message': 'Hello'}
 
 # 4. Route with a single parameter, returns the parameter within a message
 #    Located at: http://127.0.0.1:8000/AnyNameHere

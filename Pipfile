@@ -35,6 +35,7 @@ pyldavis = "*"
 yellowbrick = "*"
 bokeh = "*"
 umap-learn = "*"
+pipenv = "*"
 
 [dev-packages]
 
