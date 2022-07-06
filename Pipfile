@@ -36,6 +36,8 @@ yellowbrick = "*"
 bokeh = "*"
 umap-learn = "*"
 pipenv = "*"
+gunicorn = "*"
+httptools = "*"
 
 [dev-packages]
 
